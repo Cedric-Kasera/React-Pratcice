@@ -4,6 +4,7 @@ import Newsletter from "./components/Newsletter";
 import Profilecard from "./components/Profilecard";
 import Count from "./components/Count";
 import Log from "./components/Log";
+import UseEffect from "./components/UseEffect";
 // import logo from "./logo.svg";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Profilecard />
       <Count />
       <Log />
+      <UseEffect/>
     </div>
   );
 }
