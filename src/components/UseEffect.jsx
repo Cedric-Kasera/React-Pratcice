@@ -15,7 +15,8 @@ function UseEffect() {
 
   return (
     <div className="bg-slate-400 p-2 items-center">
-      <p className="text-black font-bold">My Countdown = {count} </p>
+        <p className="text-bold">UeEffect</p>
+      <p className="text-black font-bold">My Countdown = {count} {" "}ms</p>
     </div>
   );
 }
